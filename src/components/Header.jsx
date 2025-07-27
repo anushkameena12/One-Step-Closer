@@ -1,4 +1,6 @@
+import dayjs from 'dayjs'
 export function Header(props) {
+    const today = dayjs().format('dddd, MMMM D, YYYY')
     const { todos } = props
     const activeTodos = todos.filter(todo => !todo.complete)
     const todoLength = activeTodos.length
@@ -9,8 +11,14 @@ export function Header(props) {
     
     return (
         <header>
-            <div className="todo-heading">TO-DO LIST !</div>
-            <h1 className="text-gradient">You have {todoLength} {taskText} left.</h1>
+
+            <div className="todo-heading text">TO-DO LIST !
+                <h3 className='date-heading'>({today})</h3> 
+            </div>
+            <h1 className="text-gradient">You have {todoLength} {taskText} left.
+            </h1>
+
+            
         </header>
     )
 }

@@ -3,6 +3,7 @@ import { Header } from "./components/Header"
 import { Tabs } from "./components/Tabs"
 import { TodoInput } from "./components/TodoInput"
 import { TodoList } from "./components/TodoList"
+import { Quotes } from "./components/Quotes"
 
 
 function App() {
@@ -77,6 +78,7 @@ function App() {
       <Tabs selectedTab = { selectedTab } setSelectedTab= {setSelectedTab} todos={todos}/>
       <TodoList handleCompleteToDo={handleCompleteToDo} handleDeleteToDo={handleDeleteToDo} selectedTab={selectedTab}  todos={todos}/>
       <TodoInput selectedTab ={selectedTab} handleAddToDo={handleAddToDo}/>
+      <Quotes/>
     </>
     
   )
