@@ -1,8 +1,12 @@
 import { useState } from 'react';
 
 export function TodoInput(props) {
-    const { handleAddToDo } = props
+    const { handleAddToDo, selectedTab } = props
     const  [inputValue, setInputValue] = useState('')
+
+    if(selectedTab == 'Done') {
+        return null
+    } 
     return (
         <div className="input-container">
             <input value={inputValue} onChange={(e) => {
@@ -13,7 +17,9 @@ export function TodoInput(props) {
                     handleAddToDo(inputValue)
                     setInputValue('') // Clear input after adding
                 }
-               }} />
+               }}
+               />
+               
             <button onClick={() => {
                 if(!inputValue) { return }
                 handleAddToDo(inputValue)
