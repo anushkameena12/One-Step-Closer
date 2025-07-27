@@ -17,7 +17,7 @@ function App() {
   // ]
 
   const [todos, setToDos] = useState([
-    { input: "Hello! Add Your First To-Do!", complete: true, placeholder: true }
+    { input: "Hello! Add Your First To-Do!", complete: false, placeholder: true }
   ]) 
 
   const [selectedTab, setSelectedTab] = useState("All")
