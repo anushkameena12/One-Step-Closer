@@ -4,7 +4,6 @@ export function Tabs(props){
     return (
             <nav className="tab-container">
                 {tabs.map((tab, tabIndex) => {
-                    // Here you can implement logic to count todos based on their status
                     const numofTasks = tab === "All" ? todos.length : tab === "To-Do" ? todos.filter(val => !val.complete).length : todos.filter(val => val.complete).length
 
                     return (
@@ -24,3 +23,6 @@ export function Tabs(props){
       
     )
 }
+
+
+    
