@@ -41,7 +41,12 @@ function App() {
 
 
  function handleCompleteToDo(index){
- }
+  let newToDoList = [...todos]
+  let completedToDo = newToDoList[index]
+  completedToDo['complete'] = true
+  newToDoList[index] = completedToDo
+  setToDos(newToDoList)
+  }
  
 
   
@@ -55,7 +60,7 @@ function App() {
     <>
       <Header todos={todos}/>
       <Tabs selectedTab = { selectedTab } setSelectedTab= {setSelectedTab} todos={todos}/>
-      <TodoList handleDeleteToDo={handleDeleteToDo} selectedTab={selectedTab}  todos={todos}/>
+      <TodoList handleCompleteToDo={handleCompleteToDo} handleDeleteToDo={handleDeleteToDo} selectedTab={selectedTab}  todos={todos}/>
       <TodoInput handleAddToDo={handleAddToDo}/>
     </>
     
