@@ -1,5 +1,5 @@
 export function Tabs(props){
-    const { todos, selectedTab, setSelectedTab, } = props
+    const { todos, selectedTab, setSelectedTab } = props
     const tabs = ["All", "To-Do", "Done"]
     return (
             <nav className="tab-container">
