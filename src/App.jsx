@@ -19,6 +19,8 @@ function App() {
     { input: "Hello! Add Your First To-Do!", complete: true, placeholder: true }
   ]) 
 
+  const [selectedTab, setSelectedTab] = useState("All")
+
 
  function handleAddToDo(newToDo) {
   const filteredTodos = todos.filter(todo => !todo.placeholder)
@@ -29,11 +31,13 @@ function App() {
 
  }
 
- function handleDeleteToDo() {
+ function handleDeleteToDo(newToDo) {
+  
 
  }
 
- function handleCompleteToDo() {
+ function handleCompleteToDo(newToDo) {
+  
 
  }
 
@@ -42,8 +46,8 @@ function App() {
   return (
     <>
       <Header todos={todos}/>
-      <Tabs todos={todos}/>
-      <TodoList todos={todos}/>
+      <Tabs selectedTab = { selectedTab } setSelectedTab= {setSelectedTab} todos={todos}/>
+      <TodoList selectedTab={selectedTab}  todos={todos}/>
       <TodoInput handleAddToDo={handleAddToDo}/>
     </>
     
