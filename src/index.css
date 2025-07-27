@@ -67,7 +67,18 @@ hr {
 }
 
 .todo-complete {
+  font-size: 1rem;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #888;
+}
+.todo-complete {
   position: relative;
+ 
 }
 
 .todo-complete::after {
@@ -78,6 +89,7 @@ hr {
   border-radius: inherit;
   background: var(--background-primary);
   opacity: 0.6;
+  
   
 }
 
@@ -99,6 +111,9 @@ hr {
 .todo-buttons button:hover {
   transform: scale(1.1);
   opacity: 0.6;
+  
+
+  
   
   
 
@@ -123,6 +138,7 @@ hr {
 
 .todo-item p {
   font-weight: 500;
+  
 }
 
 .input-container {

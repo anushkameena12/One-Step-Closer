@@ -4,7 +4,9 @@ export function TodoCard(props){
     
     return(
         <div className="card todo-item">
-            <p>{todo.input}</p>
+            <p className={todo.complete ? "todo-text done" : "todo-text"}>
+                {todo.input}
+            </p>
             <div className="todo-buttons">
                 <button disabled={todo.complete}
                 onClick={() => {
