@@ -14,21 +14,38 @@
   padding: 0;
 }
 
-.todo-heading {
-  font-size: 3rem;
-  font-weight: 600;
-  color: #ffffff;
+.todo-heading{
+  
+  font-size: 4rem;
+  font-weight: 800;
   text-align: center;
-  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  
+
+}
+
+.text-gradient-secondary {
+  background: linear-gradient(159deg,rgba(15, 83, 122, 1) 0%, rgba(182, 29, 253, 1) 50%, rgba(252, 69, 103, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .date-heading {
-  color: #ffdd1f;
+  color: #dfdde2eb;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 100;
   opacity: 0.8;
-  margin-top: 0.5rem;
+  
 }
+
+.text-heading {
+  color: rgb(161, 148, 253);
+  margin-top: 2rem;
+}
+
+
 
 h1 {
   width: fit-content;
@@ -174,26 +191,20 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
-.quotes img {
-  width: 320px;
-  height: 220px;
-  border-radius: 8px;
+.quotes button {
+  width: 350px;
+  height: 50px;
+  border-radius: 30px;
   object-fit: cover;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(161, 122, 246, 0.521);
   transition: transform 0.2s ease;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .quotes img:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 12px 4px #dd82efcc;
-
-  
-  
-  
-  
 }
 
 
