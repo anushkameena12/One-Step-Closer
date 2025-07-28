@@ -27,7 +27,7 @@
 }
 
 .text-gradient-secondary {
-  background: linear-gradient(159deg,rgba(15, 83, 122, 1) 0%, rgba(182, 29, 253, 1) 50%, rgba(252, 69, 103, 1) 100%);
+  background: linear-gradient(159deg,rgb(6, 8, 120) 0%, rgb(156, 47, 160) 50%, rgb(224, 187, 224) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -41,7 +41,7 @@
 }
 
 .text-heading {
-  color: rgb(161, 148, 253);
+  color: #9676ab;
   margin-top: 2rem;
 }
 
