@@ -43,7 +43,7 @@
 ---
 ## Live Demo
 
-[https://onestep-closer.netlify.app/]
+https://onestep-closer.netlify.app/
 
 
 ---
