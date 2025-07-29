@@ -16,8 +16,8 @@ export function Header(props) {
             </div>
                 <h3 className='date-heading'>({today})</h3> 
             <div>
-                <h1 className="text-heading">You have {todoLength} {taskText} left.
-                </h1>
+                <h2 className="text-heading">You have {todoLength} {taskText} left.
+                </h2>
             </div>
 
             

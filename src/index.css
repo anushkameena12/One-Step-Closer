@@ -16,14 +16,16 @@
 
 .todo-heading{
   
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  
+  white-space: nowrap;
 
+  
+  
 }
 
 .text-gradient-secondary {
@@ -33,7 +35,7 @@
 }
 
 .date-heading {
-  color: #dfdde2eb;
+  color: #fffffff0;
   font-size: 1.2rem;
   font-weight: 100;
   opacity: 0.8;
@@ -41,7 +43,7 @@
 }
 
 .text-heading {
-  color: #9676ab;
+  color: #d1a8ed;
   margin-top: 2rem;
 }
 
