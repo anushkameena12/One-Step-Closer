@@ -1,4 +1,4 @@
-# One Step Closer - To-Do List App
+# One Step Closer (To-Do List App)
 
 **One Step Closer** is a simple yet effective To-Do list application built using **React** and **Vite**. The app helps you keep track of your tasks by allowing you to add, mark as done, and delete tasks. It also gives you a gentle reminder to take things one step at a time.
 
