@@ -37,3 +37,30 @@
 
 ---
 ## Overview    
+![](https://github.com/anushkameena12/One-Step-Closer/blob/main/public/images/overview.png)
+
+
+---
+## Live Demo
+
+[https://onestep-closer.netlify.app/]
+
+
+---
+
+## 🤝 Contributing
+Contributions are always welcome! If you have suggestions for improvements or new features, please feel free to:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature-name`).
+3.  Make your changes and ensure they are well-commented.
+4.  Commit your changes (`git commit -m 'Add new feature'`).
+5.  Push to the branch (`git push origin feature/your-feature-name`).
+6.  Open a Pull Request, describing your changes in detail.
+
+---
+
+## 📧 Contact
+If you have any questions or feedback, please feel free to open an issue on the GitHub repository.
+
+---
